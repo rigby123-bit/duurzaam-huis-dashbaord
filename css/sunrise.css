@@ -1,0 +1,84 @@
+/* css/sunrise.css */
+.sun-arc-wrapper {
+    margin-bottom: 16px;
+}
+
+.sun-arc {
+    background: linear-gradient(to bottom, rgba(251,191,36,0.08), transparent);
+    border-radius: 8px;
+    padding: 12px 8px 8px;
+}
+
+.sun-track {
+    position: relative;
+    height: 28px;
+    background: var(--bg-primary);
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.sun-progress {
+    position: absolute;
+    top: 0; left: 0; bottom: 0;
+    background: linear-gradient(to right, rgba(251,191,36,0.3), rgba(251,191,36,0.6));
+    border-radius: 14px;
+    transition: width 1s ease;
+}
+
+.sun-dot {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.1rem;
+    transition: left 1s ease;
+    z-index: 1;
+}
+
+.sun-times {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.sun-time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+
+.sun-time-icon { font-size: 1.2rem; }
+
+.sun-time-label {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+.sun-time-value {
+    font-family: var(--font-mono);
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.sun-time-middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+
+.sun-day-length {
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--accent-yellow);
+}
+
+.sun-day-label {
+    font-size: 0.68rem;
+    color: var(--text-muted);
+}

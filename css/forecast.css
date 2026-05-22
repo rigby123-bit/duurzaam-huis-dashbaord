@@ -1,0 +1,68 @@
+/* css/forecast.css */
+.forecast-strip {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+}
+
+.forecast-day {
+    flex: 1;
+    min-width: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 12px 8px;
+    border-radius: 10px;
+    background: var(--bg-primary);
+    border: 1px solid var(--border);
+    transition: background 0.4s;
+    text-align: center;
+}
+
+.forecast-today {
+    background: rgba(61, 139, 55, 0.08);
+    border-color: var(--accent-green);
+}
+
+.f-day-label {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: var(--text-muted);
+}
+
+.forecast-today .f-day-label { color: var(--accent-green); }
+
+.f-icon { font-size: 1.6rem; line-height: 1; }
+
+.f-desc {
+    font-size: 0.72rem;
+    color: var(--text-secondary);
+}
+
+.f-temps {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.f-max {
+    font-family: var(--font-mono);
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: var(--text-primary);
+}
+
+.f-min {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+.f-precip {
+    font-size: 0.7rem;
+    color: var(--accent-blue);
+}

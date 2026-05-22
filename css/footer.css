@@ -1,0 +1,73 @@
+/* css/footer.css */
+.site-footer {
+    background: var(--bg-secondary);
+    border-top: 1px solid var(--border);
+    margin-top: 20px;
+    transition: background 0.4s ease;
+}
+
+.footer-inner {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 28px 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-brand {
+    font-family: var(--font-mono);
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--accent-green);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-year {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    font-weight: 400;
+}
+
+.footer-team { }
+
+.footer-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+    display: block;
+    margin-bottom: 6px;
+}
+
+.team-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 20px;
+}
+
+.team-list li {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.footer-school {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    font-style: italic;
+    align-self: flex-end;
+}
+
+.site-footer .item-credit {
+    text-align: center;
+    border-top: 1px solid var(--border);
+    padding: 8px 20px;
+    margin: 0;
+    border-radius: 0;
+}

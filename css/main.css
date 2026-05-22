@@ -1,0 +1,167 @@
+/* css/main.css - Hoofdstijl Duurzaam Huis Dashboard */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500;600&display=swap');
+
+/* ===== CSS VARIABELEN - LIGHT MODE ===== */
+:root {
+    --bg-primary:    #f0f4f0;
+    --bg-secondary:  #ffffff;
+    --bg-card:       #ffffff;
+    --text-primary:  #1a2e1a;
+    --text-secondary:#4a6741;
+    --text-muted:    #8aab87;
+    --accent-green:  #3d8b37;
+    --accent-yellow: #d4a017;
+    --accent-blue:   #2e6da4;
+    --border:        #d4e8d0;
+    --shadow:        0 2px 12px rgba(0,0,0,0.08);
+    --shadow-hover:  0 6px 24px rgba(0,0,0,0.14);
+    --credit-color:  #aac4a7;
+    --radius:        12px;
+    --font-main:     'DM Sans', sans-serif;
+    --font-mono:     'Space Mono', monospace;
+}
+
+/* ===== DARK MODE ===== */
+.dark-mode {
+    --bg-primary:    #0f1a0f;
+    --bg-secondary:  #1a2e1a;
+    --bg-card:       #1e351e;
+    --text-primary:  #e8f5e4;
+    --text-secondary:#a8d4a0;
+    --text-muted:    #5a8a56;
+    --accent-green:  #5cb85c;
+    --accent-yellow: #f0c040;
+    --accent-blue:   #5ba3d4;
+    --border:        #2d4d2d;
+    --shadow:        0 2px 16px rgba(0,0,0,0.4);
+    --shadow-hover:  0 6px 28px rgba(0,0,0,0.6);
+    --credit-color:  #3a5a37;
+}
+
+/* ===== RESET & BASIS ===== */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body, html {
+    font-family: var(--font-main);
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    transition: background 0.4s ease, color 0.4s ease;
+    min-height: 100vh;
+}
+
+/* ===== LAYOUT ===== */
+.dashboard-grid {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 24px 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.dashboard-section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.section-title {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 8px;
+}
+
+.cards-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.charts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 16px;
+}
+
+/* ===== KAARTEN ===== */
+.dashboard-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px;
+    box-shadow: var(--shadow);
+    transition: box-shadow 0.25s ease, transform 0.25s ease, background 0.4s ease, border-color 0.4s ease;
+    position: relative;
+    flex: 1;
+    min-width: 200px;
+}
+
+.dashboard-card:hover {
+    box-shadow: var(--shadow-hover);
+    transform: translateY(-2px);
+}
+
+.card-wide { flex: 3; min-width: 320px; }
+.card-chart { min-width: 280px; }
+.card-control { min-width: 200px; max-width: 320px; }
+
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+}
+
+.card-icon { font-size: 1.4rem; line-height: 1; }
+
+.card-label {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    flex: 1;
+}
+
+.card-unit {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--accent-green);
+    background: rgba(61, 139, 55, 0.12);
+    padding: 2px 8px;
+    border-radius: 20px;
+}
+
+.card-body {
+    color: var(--text-primary);
+}
+
+.error-msg {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+/* ===== CREDIT FOOTER ===== */
+.item-credit {
+    margin-top: 14px;
+    font-size: 0.68rem;
+    color: var(--credit-color);
+    font-family: var(--font-mono);
+    text-align: right;
+    border-top: 1px solid var(--border);
+    padding-top: 8px;
+    transition: color 0.4s;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .cards-row { flex-direction: column; }
+    .card-wide, .card-control { max-width: 100%; }
+    .charts-grid { grid-template-columns: 1fr; }
+    .dashboard-grid { padding: 16px 12px 32px; }
+}
