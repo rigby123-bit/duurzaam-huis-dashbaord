@@ -3,10 +3,10 @@
 Een PHP/JS/CSS dashboard voor het monitoren van energieverbruik en actuele weersinformatie.
 
 ## Groepsleden
-- [Naam Student 1] – index.php, water-chart.php, datetime.php
-- [Naam Student 2] – footer.php, solar-chart.php, weather-forecast.php
-- [Naam Student 3] – header.php, electricity-chart.php, darkmode.php
-- [Naam Student 4] – sunrise-sunset.php, gas-chart.php, timespan.php
+- [victor] – index.php, water-chart.php, datetime.php
+- [tyler] – footer.php, solar-chart.php, weather-forecast.php
+- [ilham] – header.php, electricity-chart.php, darkmode.php
+- [tyler] – sunrise-sunset.php, gas-chart.php, timespan.php
 
 ## Mappenstructuur
 ```
