@@ -1,6 +1,6 @@
 <?php
 // includes/weather-forecast.php
-// Gemaakt door: [NaamStudent2]
+// Gemaakt door: [tyler]
 // Lijst A - Item 3: Weersverwachting voor de komende 5 dagen
 
 $lat = 52.3676;
@@ -90,5 +90,5 @@ function getForecastLabel($code) {
             <p class="error-msg">⚠️ Voorspelling niet beschikbaar</p>
         <?php endif; ?>
     </div>
-    <div class="item-credit">weather-forecast.php – gemaakt door [NaamStudent2]</div>
+    <div class="item-credit">weather-forecast.php – gemaakt door [tyler]</div>
 </div>
