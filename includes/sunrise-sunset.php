@@ -1,6 +1,6 @@
 <?php
 // includes/sunrise-sunset.php
-// Gemaakt door: [NaamStudent4]
+// Gemaakt door: [tyler]
 // Lijst A - Item 2: Zonsopkomst en zonsondergang via Open-Meteo
 
 $lat = 52.3676;
