@@ -29,5 +29,23 @@ duurzaam-huis-dashboard/
 ├── js/                    # JavaScript
 └── data/                  # JSON databestanden
 ```
+## API's gebruikt
+- [Open-Meteo](https://open-meteo.com/) – gratis, geen API-key nodig
+  - Temperatuur, wind, luchtvochtigheid
+  - Zonsopkomst & zonsondergang
+  - 5-daagse weersverwachting
 
+## Lokaal draaien
+Je hebt een PHP server nodig (bijv. XAMPP of MAMP):
+1. Clone de repo in je `htdocs` map
+2. Start Apache
+3. Ga naar `http://localhost/duurzaam-huis-dashboard/`
+
+## GitHub Workflow
+```bash
+# Wijzigingen committen en pushen
+git add .
+git commit -m "Beschrijving van je wijziging"
+git push origin main
+```
 
