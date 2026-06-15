@@ -1,6 +1,6 @@
 <?php
 // includes/timespan.php
-// Gemaakt door: [NaamStudent4]
+// Gemaakt door: [tyler]
 // Lijst C - Item 2: Tijdspanne selectie (dag / week / maand)
 ?>
 
@@ -17,7 +17,7 @@
         </div>
         <p class="timespan-info" id="timespan-info">Grafiek toont data per week</p>
     </div>
-    <div class="item-credit">timespan.php – gemaakt door [NaamStudent4]</div>
+    <div class="item-credit">timespan.php – gemaakt door [tyler]</div>
 </div>
 
 <script>
