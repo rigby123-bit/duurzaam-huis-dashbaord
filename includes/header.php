@@ -1,6 +1,6 @@
 <?php
 // includes/header.php
-// Gemaakt door: [JouwNaam]
+// Gemaakt door: [ilham]
 // Header met logo en navigatie
 ?>
 <link rel="stylesheet" href="css/header.css">
@@ -34,5 +34,5 @@
         </nav>
     </div>
 
-    <div class="item-credit">header.php – gemaakt door [JouwNaam]</div>
+    <div class="item-credit">header.php – gemaakt door [ilham]</div>
 </header>
