@@ -1,6 +1,6 @@
 <?php
 // includes/solar-chart.php
-// Gemaakt door: [NaamStudent2]
+// Gemaakt door: [tyler]
 // Lijst B - Item 5: Opbrengst zonnepanelen via JSON
 ?>
 
@@ -13,7 +13,7 @@
     <div class="card-body">
         <canvas id="solarChart" height="200"></canvas>
     </div>
-    <div class="item-credit">solar-chart.php – gemaakt door [NaamStudent2]</div>
+    <div class="item-credit">solar-chart.php – gemaakt door [tyler]</div>
 </div>
 
 <script>
