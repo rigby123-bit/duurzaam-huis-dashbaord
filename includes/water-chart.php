@@ -1,6 +1,6 @@
 <?php
 // includes/water-chart.php
-// Gemaakt door: [NaamStudent1]
+// Gemaakt door: [victor]
 // Lijst B - Item 3: Waterverbruik via JSON
 ?>
 
@@ -13,7 +13,7 @@
     <div class="card-body">
         <canvas id="waterChart" height="200"></canvas>
     </div>
-    <div class="item-credit">water-chart.php – gemaakt door [NaamStudent1]</div>
+    <div class="item-credit">water-chart.php – gemaakt door [victor]</div>
 </div>
 
 <script>
