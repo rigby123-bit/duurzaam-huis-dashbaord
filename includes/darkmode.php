@@ -1,6 +1,6 @@
 <?php
 // includes/darkmode.php
-// Gemaakt door: [NaamStudent3]
+// Gemaakt door: [vitor]
 // Lijst C - Item 1: Dark mode / Light mode toggle
 ?>
 <link rel="stylesheet" href="css/controls.css">
@@ -20,7 +20,7 @@
             <span class="toggle-label">🌙 Donker</span>
         </div>
     </div>
-    <div class="item-credit">darkmode.php – gemaakt door [NaamStudent3]</div>
+    <div class="item-credit">darkmode.php – gemaakt door [victor]</div>
 </div>
 
 <script>
