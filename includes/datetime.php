@@ -1,6 +1,6 @@
 <?php
 // includes/datetime.php
-// Gemaakt door: [NaamStudent1]
+// Gemaakt door: [victor]
 // Lijst A - Item 4: Huidige datum en tijd (met JS)
 ?>
 <link rel="stylesheet" href="css/datetime.css">
@@ -17,7 +17,7 @@
             <div class="clock-day"  id="live-day">--</div>
         </div>
     </div>
-    <div class="item-credit">datetime.php – gemaakt door [NaamStudent1]</div>
+    <div class="item-credit">datetime.php – gemaakt door [victor]</div>
 </div>
 
 <script>
