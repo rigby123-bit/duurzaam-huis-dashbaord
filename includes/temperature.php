@@ -1,6 +1,6 @@
 <?php
 // includes/temperature.php
-// Gemaakt door: [NaamStudent3]
+// Gemaakt door: [ilham]
 // Lijst A - Item 1: Actuele buitentemperatuur via Open-Meteo API (gratis, geen key nodig)
 
 // Coördinaten Amsterdam (pas aan naar jouw stad)
@@ -65,5 +65,5 @@ function getWeatherIcon($code) {
             <p class="error-msg">⚠️ Data niet beschikbaar</p>
         <?php endif; ?>
     </div>
-    <div class="item-credit">temperature.php – gemaakt door [NaamStudent3]</div>
+    <div class="item-credit">temperature.php – gemaakt door [ilham]</div>
 </div>
