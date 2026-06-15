@@ -1,6 +1,6 @@
 <?php
 // includes/footer.php
-// Gemaakt door: [NaamStudent2]
+// Gemaakt door: [tyler]
 // Footer met groepsnamen
 ?>
 <link rel="stylesheet" href="css/footer.css">
@@ -26,5 +26,5 @@
             <span>[Schoolnaam] &middot; [Klas] &middot; <?= date('Y') ?></span>
         </div>
     </div>
-    <div class="item-credit">footer.php – gemaakt door [NaamStudent2]</div>
+    <div class="item-credit">footer.php – gemaakt door [tyler]</div>
 </footer>
