@@ -1,6 +1,6 @@
 <?php
 // includes/gas-chart.php
-// Gemaakt door: [NaamStudent4]
+// Gemaakt door: [tyler]
 // Lijst B - Item 2: Gasverbruik via JSON
 ?>
 
@@ -13,7 +13,7 @@
     <div class="card-body">
         <canvas id="gasChart" height="200"></canvas>
     </div>
-    <div class="item-credit">gas-chart.php – gemaakt door [NaamStudent4]</div>
+    <div class="item-credit">gas-chart.php – gemaakt door [tyler]</div>
 </div>
 
 <script>
