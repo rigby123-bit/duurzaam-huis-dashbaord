@@ -1,6 +1,6 @@
 <?php
 // includes/darkmode.php
-// Gemaakt door: [NaamStudent3]
+// Gemaakt door: Ilham Abahoua
 // Lijst C - Item 1: Dark mode / Light mode toggle
 ?>
 <link rel="stylesheet" href="css/controls.css">

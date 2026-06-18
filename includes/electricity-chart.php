@@ -1,6 +1,6 @@
 <?php
 // includes/electricity-chart.php
-// Gemaakt door: [NaamStudent3]
+// Gemaakt door: Ilham Abahoua
 // Lijst B - Item 1: Electriciteitsverbruik via JSON
 ?>
 <link rel="stylesheet" href="css/charts.css">

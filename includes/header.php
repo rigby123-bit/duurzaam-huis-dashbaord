@@ -1,6 +1,6 @@
 <?php
 // includes/header.php
-// Gemaakt door: [JouwNaam]
+// Gemaakt door: Ilham Abahoua
 // Header met logo en navigatie
 ?>
 <link rel="stylesheet" href="css/header.css">
