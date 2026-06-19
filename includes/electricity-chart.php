@@ -14,7 +14,7 @@
     <div class="card-body">
         <canvas id="electricityChart" height="200"></canvas>
     </div>
-    <div class="item-credit">electricity-chart.php – gemaakt door [NaamStudent3]</div>
+    <div class="item-credit">electricity-chart.php – gemaakt door Ilham Abahoua</div>
 </div>
 
 <script>
