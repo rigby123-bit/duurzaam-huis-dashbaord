@@ -17,7 +17,7 @@
             <div class="clock-day"  id="live-day">--</div>
         </div>
     </div>
-    <div class="item-credit">datetime.php – gemaakt door [NaamStudent1]</div>
+    <div class="item-credit">datetime.php – gemaakt door Victor</div>
 </div>
 
 <script>

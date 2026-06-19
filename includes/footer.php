@@ -18,7 +18,6 @@
                 <li>Student 1 – Victor</li>
                 <li>Student 2 – Ilham</li>
                 <li>Student 3 – Tyler</li>
-                <li>Student 4 – Ahmed</li>
             </ul>
         </div>
 

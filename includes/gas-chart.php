@@ -13,7 +13,7 @@
     <div class="card-body">
         <canvas id="gasChart" height="200"></canvas>
     </div>
-    <div class="item-credit">gas-chart.php – gemaakt door [NaamStudent4]</div>
+    <div class="item-credit">gas-chart.php – gemaakt door Tyler</div>
 </div>
 
 <script>

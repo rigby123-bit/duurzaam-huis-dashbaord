@@ -13,7 +13,7 @@
     <div class="card-body">
         <canvas id="solarChart" height="200"></canvas>
     </div>
-    <div class="item-credit">solar-chart.php – gemaakt door [NaamStudent2]</div>
+    <div class="item-credit">solar-chart.php – gemaakt door Tyler</div>
 </div>
 
 <script>

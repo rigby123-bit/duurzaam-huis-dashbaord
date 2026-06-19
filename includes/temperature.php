@@ -65,5 +65,5 @@ function getWeatherIcon($code) {
             <p class="error-msg">⚠️ Data niet beschikbaar</p>
         <?php endif; ?>
     </div>
-    <div class="item-credit">temperature.php – gemaakt door [NaamStudent3]</div>
+    <div class="item-credit">temperature.php – gemaakt door Ilham Abahoua</div>
 </div>

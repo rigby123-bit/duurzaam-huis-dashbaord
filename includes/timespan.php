@@ -17,7 +17,7 @@
         </div>
         <p class="timespan-info" id="timespan-info">Grafiek toont data per week</p>
     </div>
-    <div class="item-credit">timespan.php – gemaakt door [NaamStudent4]</div>
+    <div class="item-credit">timespan.php – gemaakt door Tyler</div>
 </div>
 
 <script>

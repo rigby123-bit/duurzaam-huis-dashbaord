@@ -1,6 +1,6 @@
 <?php
 // includes/sunrise-sunset.php
-// Gemaakt door: [NaamStudent4]
+// Gemaakt door: Tyler
 // Lijst A - Item 2: Zonsopkomst en zonsondergang via Open-Meteo
 
 $lat = 52.3676;
@@ -81,5 +81,5 @@ if ($sunrise && $sunset) {
             <p class="error-msg">⚠️ Data niet beschikbaar</p>
         <?php endif; ?>
     </div>
-    <div class="item-credit">sunrise-sunset.php – gemaakt door [NaamStudent4]</div>
+    <div class="item-credit">sunrise-sunset.php – gemaakt door Tyler</div>
 </div>

@@ -90,5 +90,5 @@ function getForecastLabel($code) {
             <p class="error-msg">⚠️ Voorspelling niet beschikbaar</p>
         <?php endif; ?>
     </div>
-    <div class="item-credit">weather-forecast.php – gemaakt door [NaamStudent2]</div>
+    <div class="item-credit">weather-forecast.php – gemaakt door Tyler</div>
 </div>

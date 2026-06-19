@@ -13,7 +13,7 @@
     <div class="card-body">
         <canvas id="waterChart" height="200"></canvas>
     </div>
-    <div class="item-credit">water-chart.php – gemaakt door [NaamStudent1]</div>
+    <div class="item-credit">water-chart.php – gemaakt door Victor</div>
 </div>
 
 <script>

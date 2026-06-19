@@ -20,7 +20,7 @@
             <span class="toggle-label">🌙 Donker</span>
         </div>
     </div>
-    <div class="item-credit">darkmode.php – gemaakt door [NaamStudent3]</div>
+    <div class="item-credit">darkmode.php – gemaakt door Victor</div>
 </div>
 
 <script>
