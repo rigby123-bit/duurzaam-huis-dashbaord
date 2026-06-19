@@ -34,5 +34,5 @@
         </nav>
     </div>
 
-    <div class="item-credit">header.php – gemaakt door [JouwNaam]</div>
+    <div class="item-credit">header.php – gemaakt door Ilham Abahoua</div>
 </header>
