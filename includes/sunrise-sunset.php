@@ -1,6 +1,7 @@
 <?php
 // includes/sunrise-sunset.php
 // Gemaakt door: Tyler
+// Gemaakt door: [tyler]
 // Lijst A - Item 2: Zonsopkomst en zonsondergang via Open-Meteo
 
 $lat = 52.3676;
@@ -74,7 +75,7 @@ if ($sunrise && $sunset) {
                 <div class="sun-time">
                     <span class="sun-time-icon">🌇</span>
                     <span class="sun-time-label">Ondergang</span>
-                    <span class="sun-time-value"><?= $sunset ?></span>
+                    <span class="sun-time-value"><?= $sunset ?></span> 
                 </div>
             </div>
         <?php else: ?>
@@ -82,4 +83,5 @@ if ($sunrise && $sunset) {
         <?php endif; ?>
     </div>
     <div class="item-credit">sunrise-sunset.php – gemaakt door Tyler</div>
+    <div class="item-credit">sunrise-sunset.php – gemaakt door [tyler]</div>
 </div>

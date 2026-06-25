@@ -1,6 +1,7 @@
+
 <?php
 // includes/footer.php
-// Gemaakt door: [NaamStudent2]
+// Gemaakt door: [tyler]
 // Footer met groepsnamen
 ?>
 <link rel="stylesheet" href="css/footer.css">
@@ -15,15 +16,16 @@
         <div class="footer-team">
             <span class="footer-label">Groep:</span>
             <ul class="team-list">
-                <li>Student 1 – Victor</li>
-                <li>Student 2 – Ilham</li>
-                <li>Student 3 – Tyler</li>
+                <li>Student 1 – [victor]</li>
+                <li>Student 2 – [ilham]</li>
+                <li>Student 3 – [tyler]</li>
+                <li>Student 4 – [tyler]</li>
             </ul>
         </div>
 
         <div class="footer-school">
-            <span>Ilham&middot; SD1C &middot; <?= date('Y') ?></span>
+            <span>[mediacollege] &middot; [sd1a] &middot; <?= date('Y') ?></span>
         </div>
     </div>
-    <div class="item-credit">footer.php – gemaakt door Tyler</div>
+    <div class="item-credit">footer.php – gemaakt door [tyler]</div>
 </footer>

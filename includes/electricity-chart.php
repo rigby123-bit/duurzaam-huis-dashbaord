@@ -1,6 +1,6 @@
 <?php
 // includes/electricity-chart.php
-// Gemaakt door: Ilham Abahoua
+// Gemaakt door: [ilham]
 // Lijst B - Item 1: Electriciteitsverbruik via JSON
 ?>
 <link rel="stylesheet" href="css/charts.css">
@@ -14,7 +14,7 @@
     <div class="card-body">
         <canvas id="electricityChart" height="200"></canvas>
     </div>
-    <div class="item-credit">electricity-chart.php – gemaakt door Ilham Abahoua</div>
+    <div class="item-credit">electricity-chart.php – gemaakt door [ilham]</div>
 </div>
 
 <script>

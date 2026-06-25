@@ -3,9 +3,9 @@
 Een PHP/JS/CSS dashboard voor het monitoren van energieverbruik en actuele weersinformatie.
 
 ## Groepsleden
-- [victor] – index.php, water-chart.php, datetime.php
+- [victor/rigby123-bit] – index.php, water-chart.php, datetime.php,darkmode.php
 - [tyler] – footer.php, solar-chart.php, weather-forecast.php
-- [ilham] – header.php, electricity-chart.php, darkmode.php
+- [ilham] – header.php, electricity-chart.php
 - [tyler] – sunrise-sunset.php, gas-chart.php, timespan.php
 
 ## Mappenstructuur
@@ -29,7 +29,6 @@ duurzaam-huis-dashboard/
 ├── js/                    # JavaScript
 └── data/                  # JSON databestanden
 ```
-
 ## API's gebruikt
 - [Open-Meteo](https://open-meteo.com/) – gratis, geen API-key nodig
   - Temperatuur, wind, luchtvochtigheid
@@ -50,4 +49,3 @@ git commit -m "Beschrijving van je wijziging"
 git push origin main
 ```
 
-Push **meerdere keren per week** zodat elke student zichtbaar bijdraagt!
