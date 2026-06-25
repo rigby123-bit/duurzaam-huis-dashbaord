@@ -81,5 +81,5 @@ if ($sunrise && $sunset) {
             <p class="error-msg">⚠️ Data niet beschikbaar</p>
         <?php endif; ?>
     </div>
-    <div class="item-credit">sunrise-sunset.php – gemaakt door [NaamStudent4]</div>
+    <div class="item-credit">sunrise-sunset.php – gemaakt door [tyler]</div>
 </div>
