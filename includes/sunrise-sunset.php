@@ -74,7 +74,7 @@ if ($sunrise && $sunset) {
                 <div class="sun-time">
                     <span class="sun-time-icon">🌇</span>
                     <span class="sun-time-label">Ondergang</span>
-                    <span class="sun-time-value"><?= $sunset ?></span>
+                    <span class="sun-time-value"><?= $sunset ?></span> 
                 </div>
             </div>
         <?php else: ?>
